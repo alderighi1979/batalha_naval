@@ -11,7 +11,7 @@ const listaTiros = [];
 
 function jogar(){
     while (!isSunk){
-        var guess = prompt('Pronto para atirar? Informe um número entre 0 e 6')
+        var guess = prompt('Pronto para atirar? Informe um número entre 0 e 5')
         guess = Number(guess)
         if (guess < 0 || isNaN(guess) || guess > 6){
             alert('Por favor, informe um número válido entre 0 e 6')
